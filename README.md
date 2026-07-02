@@ -23,9 +23,9 @@ A 2D platformer game built using Godot Engine and GDScript, then exported for An
 📸 Screenshots
 
 <p align="center">
-  <img src="screenshots/screenshot1.png" alt="Gameplay Screenshot 1" width="30%" />
-  <img src="screenshots/screenshot2.png" alt="Gameplay Screenshot 2" width="30%" />
-  <img src="screenshots/screenshot3.png" alt="Gameplay Screenshot 3" width="30%" />
+  <img src="ingame/ingame.jpeg" alt="Gameplay Screenshot 1" width="30%" />
+  <img src="ingame/ingame2.jpeg" alt="Gameplay Screenshot 2" width="30%" />
+  <img src="ingame/ingame3.jpeg" alt="Gameplay Screenshot 3" width="30%" />
 </p>
 
 🚀 Getting Started
