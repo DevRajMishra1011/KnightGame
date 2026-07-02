@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://rm7jlbwhxrfq"]
+
+[ext_resource type="Texture2D" uid="uid://hcr3vukxxmum" path="res://Assets/sprites/buttons.png" id="1_ordjx"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_skfoy"]
+atlas = ExtResource("1_ordjx")
+region = Rect2(37.37576, 216.13255, 22.59394, 25.3087)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jsu5q"]
+atlas = ExtResource("1_ordjx")
+region = Rect2(69.41974, 219.87189, 20.772034, 18.034882)
+
+[node name="Jump" type="TouchScreenButton" unique_id=443428311]
+texture_normal = SubResource("AtlasTexture_skfoy")
+texture_pressed = SubResource("AtlasTexture_jsu5q")
+passby_press = true
+action = "Jump"

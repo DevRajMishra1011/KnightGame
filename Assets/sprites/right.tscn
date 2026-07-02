@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://bhxte8wa1csy8"]
+
+[ext_resource type="Texture2D" uid="uid://hcr3vukxxmum" path="res://Assets/sprites/buttons.png" id="1_5sy53"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_latii"]
+atlas = ExtResource("1_5sy53")
+region = Rect2(37.806816, 192.9281, 20.503914, 20.842285)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dbkv6"]
+atlas = ExtResource("1_5sy53")
+region = Rect2(70.15073, 190.47116, 19.804245, 24.10147)
+
+[node name="Right" type="TouchScreenButton" unique_id=1766990153]
+texture_normal = SubResource("AtlasTexture_latii")
+texture_pressed = SubResource("AtlasTexture_dbkv6")
+passby_press = true
+action = "Move_Right"
